@@ -247,7 +247,7 @@ body{
        width: 50vw;
     }
     .descricoes_terciarias{
-        
+        margin: 0;
         text-align: center;
     }
     .link_combo_terciario{
