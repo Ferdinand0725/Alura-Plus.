@@ -216,23 +216,67 @@ body{
 }
 
 @media (max-width: 1200px){
+    
+    .container{
+        display: block;
+        background-image: none;
+        
+    }
+    .container_imagem{
+        width: 50vw;
+    }
+    .container_caixa{
+        margin: 2rem 2rem ;
+       
+    }
+    .container_secundario{
+        display: block;
+        text-align: center;
+        
+    }
+    
+    .descricoes_secundarias{
+        text-align: center;
+      
+    }
+    .texto_secundario{
+        padding: 0;
+        
+    }
+    .imagem_secundaria{
+       width: 50vw;
+    }
+    .descricoes_terciarias{
+        
+        text-align: center;
+    }
+    .link_combo_terciario{
+        width: auto;
+    }
+    .imagem_terciaria{
+        
+        text-align: center;
+        margin: 0;
+    }
     .dispositivos{
-       width: 100%;
+        display: block;
+       text-align: center;
         gap: 0;
+        margin: 0 0 0 25%;
         
     }
     .titulo_final{
-        
+        margin: 0 0 0 25%;
         width: auto;
     }
     .garantias{
-        width: 100vw;
-        margin: 0 20% ;
+      flex-direction: column;
+       text-align: center;
     }
     .textos_finais{
-        width: 100vw;
+        
         margin: 0 25% ;
-        flex-direction: row;
+        flex-direction: column;
     }
     
    *{
